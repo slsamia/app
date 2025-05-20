@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/jhenaidah" xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_marginTop="10dp"
+    android:src="@drawable/jhe2"
+    />
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:layout_marginTop="10dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:textSize="20sp"
+                android:text="What is the population of Jhenaidah city?"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textSize="20sp"
+                android:text="According to the 2022 Bangladesh census, Jhenaidah city had a population of 140,256.
+         According to the 2011 Bangladesh census, Jhenaidah city had 25,286 households and a population of 107,834."
+
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:text="What is the history of Jhenaidah?"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textSize="20dp"
+                android:text="Jhenaidah District is a district in southwestern Bangladesh.
+         Part of the Khulna Division, the district has an area of 1,964.77 km²"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:text="why jhenaidah is famous?"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="AI Overview
+Learn more
+Jhenaidah is famous for its historical significance during Bangladesh's Liberation War,
+its cultural heritage, and its natural beauty. It is known for the bravery of freedom fighters, particularly
+those who fought in the battles of Kamanna and Mandartala. Additionally, Jhenaidah is rich in cultural traditions,
+including music, drama, and folk traditions.
+ The district also boasts a serene environment and is known for its agricultural products and rivers. "
+                android:layout_marginTop="10dp"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

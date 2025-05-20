@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/khulna" xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:src="@drawable/khulna"
+    android:layout_marginTop="20dp"
+    />
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:layout_marginTop="10dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textSize="20sp"
+                android:text="What is the partition of Khulna distric"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textSize="20sp"
+                android:text="In 1947, The Partition of India divided this
+division into two. The district of Khulna and the other half of
+ Jessore District and Nadia District became part of newly established East Bengal.
+ And rest of the district of the presidential division became part of West Bengal."
+
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:text="How many upazilas are in Khulna district"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textSize="20sp"
+                android:text="
+4394.45 square kilometers (1696.71 square miles). Khulna district was established on 1882.
+It consists of 9 upazilas and 5 thanas, 71 union parishads, 2 municipalities, 47 wards, 188 mahallas,
+747 mouzas and 1106 villages."
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:text="What is the population of Khulna district?"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="The population of Khulna district in 2022 was 2,613,385. The area of the district is 4,394 km², resulting in a population density of 595 people per km².
+The average household size is 3.85 people"
+                android:layout_marginTop="10dp"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
